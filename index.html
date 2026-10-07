@@ -1,2 +1,232 @@
-Hello world,Helo world !!
-my name is chitti 1 terabyte etc.......
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .resume {
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      padding: 40px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header {
+      text-align: center;
+      border-bottom: 2px solid #333;
+      padding-bottom: 20px;
+      margin-bottom: 25px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 5px;
+    }
+
+    header h2 {
+      font-size: 18px;
+      font-weight: normal;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .contact {
+      font-size: 14px;
+    }
+
+    section {
+      margin-bottom: 25px;
+    }
+
+    section h2 {
+      font-size: 20px;
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
+      margin-bottom: 12px;
+    }
+
+    .item {
+      margin-bottom: 15px;
+    }
+
+    .item h3 {
+      font-size: 17px;
+    }
+
+    .item .date {
+      color: #666;
+      font-size: 14px;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      background: #eeeeee;
+      padding: 6px 12px;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    a {
+      color: #333;
+    }
+
+    @media print {
+      body {
+        background: white;
+      }
+
+      .resume {
+        margin: 0;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="resume">
+
+    <!-- Header -->
+    <header>
+      <h1>Your Name</h1>
+      <h2>Web Developer</h2>
+
+      <div class="contact">
+        <p>
+          Email: yourname@email.com |
+          Phone: +1 123 456 7890
+        </p>
+        <p>
+          Location: Your City, Country |
+          <a href="#">LinkedIn</a> |
+          <a href="#">GitHub</a>
+        </p>
+      </div>
+    </header>
+
+    <!-- About Me -->
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Motivated web developer with experience in HTML, CSS,
+        JavaScript, and building responsive websites. Passionate
+        about creating clean and user-friendly web applications.
+      </p>
+    </section>
+
+    <!-- Education -->
+    <section>
+      <h2>Education</h2>
+
+      <div class="item">
+        <h3>Bachelor of Computer Science</h3>
+        <p>ABC University</p>
+        <p class="date">2022 - 2026</p>
+      </div>
+
+      <div class="item">
+        <h3>High School</h3>
+        <p>XYZ School</p>
+        <p class="date">2020 - 2022</p>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section>
+      <h2>Experience</h2>
+
+      <div class="item">
+        <h3>Web Developer Intern - ABC Company</h3>
+        <p class="date">June 2025 - August 2025</p>
+
+        <ul>
+          <li>Developed responsive web pages using HTML and CSS.</li>
+          <li>Worked with JavaScript to add website functionality.</li>
+          <li>Collaborated with developers to fix bugs.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+      <h2>Projects</h2>
+
+      <div class="item">
+        <h3>Portfolio Website</h3>
+        <p>
+          Created a responsive personal portfolio website using
+          HTML, CSS, and JavaScript.
+        </p>
+      </div>
+
+      <div class="item">
+        <h3>To-Do List Application</h3>
+        <p>
+          Built a task management application that allows users
+          to add, delete, and complete tasks.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section>
+      <h2>Skills</h2>
+
+      <div class="skills">
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">Python</span>
+        <span class="skill">Git</span>
+        <span class="skill">GitHub</span>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section>
+      <h2>Certifications</h2>
+      <ul>
+        <li>Web Development Certification</li>
+        <li>JavaScript Fundamentals</li>
+      </ul>
+    </section>
+
+    <!-- Languages -->
+    <section>
+      <h2>Languages</h2>
+      <ul>
+        <li>English - Fluent</li>
+        <li>Hindi - Native</li>
+      </ul>
+    </section>
+
+  </div>
+
+</body>
+</html>
